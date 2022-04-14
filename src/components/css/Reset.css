@@ -1,0 +1,24 @@
+.resetBody {
+    background-color: white;
+    border-radius: 0.7rem;
+    width: 25rem;
+    color: #02474C;
+    padding: 2rem;
+}
+.resetBody h1 {
+    font-size: 25px;
+    font-weight: 900;
+    padding-bottom: 0.4rem;
+    color: #011719;
+}
+.resetBody h2 {
+    font-size: 18px;
+    font-style: 400;
+    padding-bottom: 1.5rem;
+}
+.resetBody input::placeholder {
+    color: #02474C;
+}
+.newPassword {
+    padding-top: 0.5rem;
+}

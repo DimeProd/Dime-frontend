@@ -1,0 +1,84 @@
+.dimeBody {
+    background-color: #F1F8F9;
+    /* padding-bottom: 17rem; */
+    height: 100%;
+}
+.dimeBodyTwo {
+    background-color: #FFFFFF;
+    margin: 2rem 25rem;
+    border-radius: 0.7rem;
+    width: 25rem;
+    color: #02474C;
+    padding: 2rem;
+}
+.signIn {
+    color: #011719 ;
+    font-family: 'Cooper Std';
+    font-weight: bold;
+    font-size: 24px;
+}
+.formPassword {
+    margin-top: 1rem;
+}
+.dimeBodyTwo input[type=email], input[type=password] {
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #02464B;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+}
+.dimeBodyTwo input::placeholder {
+    color: #02474C;
+}
+.dimeBodyTwo h2 {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0.5rem 0 1rem 0;
+}
+.keepDetails {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.keepDetails h2 {
+    color: #02383C;
+    font-size: 12px;
+    font-weight: 400;
+}
+.keepDetails label {
+    font-weight: 400;
+}
+.signinDetailsGoogle {
+    padding: 1rem 0;
+}
+.signinDetailsGoogle button, .signinDetailsTwitter button {
+    background-color: #F1F8F9;
+    text-align: center;
+    border: none;
+    border-radius: 0.4rem;
+    width: 25rem;
+    padding: 1rem 6.5rem;
+    color: #02383C;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+}
+.signinDetailsGoogle img, .signinDetailsTwitter img {
+    padding-right: 1rem;
+}
+.createAccount button{
+    background-color: #FFFFFF;
+    margin: 0rem 25rem;
+    border-radius: 0.7rem;
+    width: 29rem;
+    color: #03747C;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+}

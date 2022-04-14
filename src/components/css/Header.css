@@ -1,0 +1,16 @@
+.dimeHeader {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 2.5rem;
+}
+.dimeHeaderTwo {
+    display: flex;
+    justify-content: space-around;
+    color: #02474C;
+}
+.dimeHeaderTwo p {
+    padding: 1.5rem 1rem;
+    font-size: 16px;
+    font-weight: 400;
+}
