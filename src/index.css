@@ -10,3 +10,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* @font-face {
+  font-family:  'cooper std';
+  src: local('cooper std'), url( ../src/Fonts/cooper-std-cufonfonts/CooperBlack-Std.otf);
+  src: local('cooper std'), url(../src/Fonts/cooper-std-cufonfonts/CooperBlack-StdItal.otf);
+} */

@@ -1,7 +1,13 @@
 .dimeBody {
     background-color: #F1F8F9;
-    /* padding-bottom: 17rem; */
     height: 100%;
+}
+.dimeBodyContainer {
+    padding-bottom: 2rem;
+}
+.dimeBodyContainer a {
+    text-decoration: none;
+    color: #02383C;
 }
 .dimeBodyTwo {
     background-color: #FFFFFF;
@@ -11,13 +17,18 @@
     color: #02474C;
     padding: 2rem;
 }
+.dimeBodyTwo h1 {
+    font-family: Copper std, sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
 .signIn {
     color: #011719 ;
     font-weight: bold;
     font-size: 24px;
 }
 .formPassword {
-    margin-top: 1rem;
+    margin-top: 1.3rem;
 }
 .dimeBodyTwo input[type=email], input[type=password] {
     width: 100%;
@@ -32,23 +43,24 @@
     color: #02474C;
 }
 .dimeBodyTwo h2 {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    padding: 0.5rem 0 1rem 0;
+    font-size: 1rem;
+    font-weight: 300;
+    font-size: 1.2rem;
+    padding: 0.5rem 0 2.5rem 0;
 }
 .keepDetails {
     display: flex;
     justify-content: space-between;
     padding: 1rem 0;
 }
-.keepDetails h2 {
+.keepDetails a {
     color: #02383C;
-    font-size: 12px;
+    font-size: 1rem;
     font-weight: 400;
 }
 .keepDetails label {
     font-weight: 400;
+    font-size: 1rem;
 }
 .signinDetailsGoogle {
     padding: 1rem 0;

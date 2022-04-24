@@ -12,7 +12,7 @@ export default class Forgotten extends Component {
                 <div>
                     <Header/>
                 </div>
-                <div className='dimeBodyTwo'>
+                <div>
                     <h1>Forgotten Password</h1>
                     <h2>Hey, we get it! Sometimes we forget too.</h2>
                     <form>
