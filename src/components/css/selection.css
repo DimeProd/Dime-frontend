@@ -1,0 +1,20 @@
+.todaysForecast {
+    color: #ffffff;
+    margin: 2.5rem 0;
+}
+.foreCast {
+    padding: 0 1.2rem;
+}
+.foreCast p {
+    padding-left: 1rem;
+}
+.forcastCard {
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    width: 20rem ;
+    box-shadow: -5px 5px 2px rgb(228, 227, 227) ;
+    margin: 5px;
+}

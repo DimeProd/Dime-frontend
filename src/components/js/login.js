@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import '../css/login.css'
 import CustomButton from '../../library/CustomButton';
 import Header from "./Header";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 export default class Login extends Component {
@@ -45,7 +45,7 @@ export default class Login extends Component {
                                 <h5>Forgot Details?</h5>
                             </div>
                         </form>
-                        <CustomButton buttonWidth="25rem" buttonHeight="2.8rem"> Log In</CustomButton>
+                        <CustomButton buttonWidth="25rem" buttonHeight="2.8rem"><Link to="selection">Log In</Link> </CustomButton>
                         <div className="signinDetailsSocial">
                             <div className="signinDetailsGoogle">
                                 <button> <img src={`icons/Google Icon.svg`} alt="Google Logo"/> <p>Sign In With Google</p></button>

@@ -6,8 +6,9 @@ import Forgotten from './components/js/Forgotten';
 import Header from './components/js/Header';
 import Reset from './components/js/Reset';
 import Successful from './components/js/Successful';
+import Selection from './components/js/selection'
 // import { Switch, Route,  BrowserRouter as Router } from "react-router-dom";
-// import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
+import { BrowserRouter as Routes, Route, } from 'react-router-dom';
 
 
 function App() {
@@ -16,9 +17,18 @@ function App() {
       {/* <Login /> */}
       {/* <Checkin /> */}
       {/* <Forgotten /> */}
-      <Reset />
+      {/* <Reset /> */}
       {/* <Successful /> */}
+      <Selection />
     </div>
+    // <div>
+    //     <Routes>
+    //       <Route path="/" element={<Login/>}/>
+    //       <Route exact path="selection" element={<Selection/>} />
+
+    // </Routes>
+    // </div>
+    
   );
 }
 
