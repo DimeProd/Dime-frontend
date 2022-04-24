@@ -42,7 +42,7 @@ export default class Login extends Component {
                                     <input type="checkbox" id="keep me signed in" name="signein" value="Keep me signed in"/>
                                     <label for="vehicle1"> Keep me signed in</label>
                                 </div>
-                                <h5>Forgot Details?</h5>
+                                <h5><Link to="forgotten">Forgot Details?</Link> </h5>
                             </div>
                         </form>
                         <CustomButton buttonWidth="25rem" buttonHeight="2.8rem"><Link to="selection">Log In</Link> </CustomButton>

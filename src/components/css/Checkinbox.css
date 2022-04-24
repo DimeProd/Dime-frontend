@@ -15,7 +15,7 @@
     top: -2.5rem;
     left: -5rem;
 }
-button {
+.checkBox button {
     margin-top: 1rem;
     width: 25rem;
     border: none;

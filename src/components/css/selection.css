@@ -1,20 +1,56 @@
-.todaysForecast {
-    color: #ffffff;
-    margin: 2.5rem 0;
+.selectionBody {
+    background-color: #F1F8F9;
+    padding: 2rem 2rem ;
+    margin-left: -0.3rem;
+} 
+
+.selection {
+    color: #02464B;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 20rem;
+    padding: 2rem;
+    margin: 1rem 0 0 1rem;
 }
-.foreCast {
-    padding: 0 1.2rem;
-}
-.foreCast p {
-    padding-left: 1rem;
-}
-.forcastCard {
-    background-color: #FFFFFF;
-    box-sizing: border-box;
-    border-radius: 12px;
+.selectionButton {
     display: flex;
     justify-content: space-between;
-    width: 20rem ;
-    box-shadow: -5px 5px 2px rgb(228, 227, 227) ;
-    margin: 5px;
+    align-items: center;
+}
+.selectionButton Button {
+    width: 9.125rem;
+    height: 2.5rem;
+    background-color: #C1D4D6;
+    border: 4px solid #F1F8F9;
+    font-size: 14px;
+    font-weight: 600;
+    color: #02383C;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.selectionButton img {
+    position: relative;
+}
+.selection li {
+    list-style: none;
+    padding-bottom: 1rem;
+}
+.selection ul {
+    padding: 0;
+    margin-top: 1.5rem;
+    font-weight: 400;
+}
+.selection h1 {
+    padding-bottom: 1rem;
+}
+.selection p {
+    font-weight: 300;
+}
+.listCheck img {
+    padding-right: 1rem;
+}
+.forcastCard {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 30%;
 }

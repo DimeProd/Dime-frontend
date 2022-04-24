@@ -8,26 +8,20 @@ import Reset from './components/js/Reset';
 import Successful from './components/js/Successful';
 import Selection from './components/js/selection'
 // import { Switch, Route,  BrowserRouter as Router } from "react-router-dom";
-import { BrowserRouter as Routes, Route, } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, } from 'react-router-dom';
 
 
 function App() {
   return (
-    <div>
-      {/* <Login /> */}
-      {/* <Checkin /> */}
-      {/* <Forgotten /> */}
-      {/* <Reset /> */}
-      {/* <Successful /> */}
-      <Selection />
-    </div>
-    // <div>
-    //     <Routes>
-    //       <Route path="/" element={<Login/>}/>
-    //       <Route exact path="selection" element={<Selection/>} />
+    
+    <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Login/>}/>
+          <Route path='forgotten' element={<Forgotten/>}/>
+          <Route exact path="selection" element={<Selection/>} />
 
-    // </Routes>
-    // </div>
+    </Routes>
+    </BrowserRouter>
     
   );
 }

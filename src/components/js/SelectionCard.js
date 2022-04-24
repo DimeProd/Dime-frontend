@@ -1,19 +1,26 @@
-import React, { Component } from "react"
+import React from "react";
 
-export default class SelectionCard extends Component {
-    render () {
-        return (
-            <div className="selection">
-                <div>
-                <h1>{this.props.header}</h1>
-                <p>{this.props.sub}</p>
-                {/* <div>
-                    <p>{this.props.work}</p>
-                    <p>{this.props.work}</p>
-                    <p>{this.props.work}</p>
-                </div> */}
-                </div>
-            </div>
-        )
-    }
-}
+const SelectionCard = (props) => {
+  return (
+    <div className="selection">
+      <h1>{props.header}</h1>
+      <p>{props.sub}</p>
+      <ul className="listCheck">
+        {props.list.map((listItem) => {
+          return (
+            <li>
+              <img src={`../icons/checkbox.svg`} alt="check" />
+              {listItem}
+            </li>
+          );
+        })}
+      </ul>
+      <div className="selectionButton">
+        <button>Learn More</button>
+        <img src={`../icons/arrowright.svg`} alt="arror right" />
+      </div>
+    </div>
+  );
+};
+
+export default SelectionCard;

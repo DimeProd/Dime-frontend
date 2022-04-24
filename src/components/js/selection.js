@@ -8,11 +8,43 @@ export default class Selection extends Component {
         const selection = [
             {
                 header:'Email Marketing',
-                sub: 'With this program, you &#39; ll learn what it takes and everything you need to work.',
+                sub: "With this program, you'll learn what it takes and everything you need to work.",
+                list: ['Strategy', 'Planning', 'Pitching & Winning Clients']
             },
             {
-                header: 'Campaign Management',
-                sub: 'With this program, you&#39ll learn what it takes and everything you need to work.'
+                header:'Email Marketing',
+                sub: "With this program, you'll learn what it takes and everything you need to work.",
+                list: ['Strategy', 'Planning', 'Pitching & Winning Clients']
+            },
+            {
+                header:'Email Marketing',
+                sub: "With this program, you'll learn what it takes and everything you need to work.",
+                list: ['Strategy', 'Planning', 'Pitching & Winning Clients']
+            },
+            {
+                header:'Email Marketing',
+                sub: "With this program, you'll learn what it takes and everything you need to work.",
+                list: ['Strategy', 'Planning', 'Pitching & Winning Clients']
+            },
+            {
+                header:'Email Marketing',
+                sub: "With this program, you'll learn what it takes and everything you need to work.",
+                list: ['Strategy', 'Planning', 'Pitching & Winning Clients']
+            },
+            {
+                header:'Email Marketing',
+                sub: "With this program, you'll learn what it takes and everything you need to work.",
+                list: ['Strategy', 'Planning', 'Pitching & Winning Clients']
+            },
+            {
+                header:'Email Marketing',
+                sub: "With this program, you'll learn what it takes and everything you need to work.",
+                list: ['Strategy', 'Planning', 'Pitching & Winning Clients']
+            },
+            {
+                header:'Email Marketing',
+                sub: "With this program, you'll learn what it takes and everything you need to work.",
+                list: ['Strategy', 'Planning', 'Pitching & Winning Clients']
             }
         ]
         return (
@@ -20,7 +52,7 @@ export default class Selection extends Component {
                 <div>
                     <Header />
                 </div>
-                <div>
+                <div className="selectionBody">
                     <div>
                         <button>Select Course</button>
                         <button>Payment</button>
@@ -36,6 +68,7 @@ export default class Selection extends Component {
                                     <SelectionCard 
                                     header={selectionItem.header}
                                     sub={selectionItem.sub}
+                                    list={selectionItem.list}
                                     />
                                 )
                             }
