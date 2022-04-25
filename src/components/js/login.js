@@ -60,8 +60,8 @@ export default class Login extends Component {
                   />
                   <label for="vehicle1"> Keep me signed in</label>
                 </div>
-                <h5>
-                  <Link to="forgotten">Forgot Details?</Link>{" "}
+                <h5 className="forgotDetails">
+                  <Link to="forgotten">Forgot Details?</Link>
                 </h5>
               </div>
             </form>

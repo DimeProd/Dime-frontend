@@ -12,15 +12,15 @@ export default class Forgotten extends Component {
                 <div>
                     <Header/>
                 </div>
-                <div>
+                <div className='forgotBodyTwo'>
                     <h1>Forgotten Password</h1>
                     <h2>Hey, we get it! Sometimes we forget too.</h2>
                     <form>
-                        <label for='email'>Email</label>  
+                        <label for='email'>Email Address</label>  
                         <input type="email"  placeholder="Enter your email address"/>
                     </form>
                     <CustomButton buttonWidth="25rem" buttonHeight="45px" >Send Password Recovery</CustomButton>
-                    <button>Need more help? Contact Us</button>
+                    <button className='forgotButton'>Need more help? Contact Us</button>
                 </div>
             </div>
         )

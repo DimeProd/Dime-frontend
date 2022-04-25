@@ -2,9 +2,15 @@ import React, { Component } from "react";
 import Header from "./Header";
 import SelectionCard from "./SelectionCard";
 import "../css/selection.css";
+import SelectCourse from "./Selectcourse";
 
 export default class Selection extends Component {
   render() {
+    // const course =[
+    //     {
+    //       select: "Select Course"
+    //     }
+    // ];
     const selection = [
       {
         header: "Email Marketing",
@@ -54,14 +60,15 @@ export default class Selection extends Component {
         </div>
         <div className="selectionBody">
           <div className="selectCourse">
-            <div>
-              <p>Select Course</p>
-              <p>Payment</p>
-            </div>
-            <div>
-              <h1>Select a course</h1>
-              <h2>To get started, please select a course to begin</h2>
-            </div>
+            {/* {course.map((courseItem) => {
+              return (
+                <SelectCourse 
+                
+                />
+              );
+            } */}
+            <SelectCourse />
+            {/* )} */}
           </div>
 
           <div className="forcastCard">

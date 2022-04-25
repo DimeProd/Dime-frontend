@@ -1,8 +1,43 @@
 .forgotBody {
     background-color: #F1F8F9;
-    padding: 0 0 13.3rem 0;
+    height: 43.5rem;
 }
-/* .dimeBodyTwo button {
+.forgotBodyTwo {
+    background-color: #ffffff;
+    align-items: center;
+    border-radius: 0.9rem;
+    width: 25rem;
+    height: 20rem;
+    margin: 7.5rem 29.25rem 21rem 24rem;
+    padding: 2rem;
+}
+.forgotBodyTwo h2 {
+    font-size: 1.125rem;
+    font-weight: 300;
+    color: #02383C;
+    padding-bottom: 2.2rem;
+}
+.forgotBodyTwo input[type=email], input[type=password] {
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #02464B;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+}
+.forgotBodyTwo label {
+    font-size: 1rem;
+    font-weight: 400;
+}
+.forgotBodyTwo input::placeholder {
+    color: #02474C;
+}
+.forgotBodyTwo form {
+    padding-bottom: 1rem;
+    color: #02474C;
+}
+.forgotButton {
     margin-top: 1rem;
     width: 25rem;
     border: none;
@@ -10,4 +45,4 @@
     background-color: #F1F8F9;
     color: #03747C;
     height: 2.8rem;
-} */
+}
