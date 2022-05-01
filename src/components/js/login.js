@@ -65,9 +65,11 @@ export default class Login extends Component {
                 </h5>
               </div>
             </form>
-            <CustomButton buttonWidth="25rem" buttonHeight="2.8rem">
-              <Link to="selection">Log In</Link>{" "}
+            <Link to="selection">
+              <CustomButton buttonWidth="25rem" buttonHeight="2.8rem">
+              Log In
             </CustomButton>
+            </Link>
             <div className="signinDetailsSocial">
               <div className="signinDetailsGoogle">
                 <button>

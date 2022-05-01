@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import '../css/Header.css'
+import '../css/Header.css';
+import Logo from '../../assets/icons/Logo-Dime-Hor 1.svg'
 
 export default class Header extends Component {
     render () {
@@ -7,7 +8,7 @@ export default class Header extends Component {
             <div>
                 <div className="dimeHeader">
                     <div className="dimeImage">
-                        <img src= {`icons/Logo-Dime-Hor 1.svg`} alt= "Dime logo"/>
+                        <img src={Logo} alt="Dime logo"/>
                     </div>
                     <div className="dimeHeaderTwo">
                         <p>Why Dime</p>

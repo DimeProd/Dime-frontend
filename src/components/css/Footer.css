@@ -1,0 +1,22 @@
+.selectFooter {
+    border-radius: 1.2rem;
+    display: flex;
+    padding: 3rem 0rem 3.2rem 5rem ;
+    margin: 5rem 0 0 0.5rem;
+}
+.aboutCompany {
+    width: 30rem;
+    padding-right: 2rem;
+}
+.aboutCompany h1 {
+    color: #02474C;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-bottom: 0.5rem;
+}
+.aboutCompany p {
+    color: #02383C;
+    font-size: 1.1rem;
+    font-weight: 300;
+    padding-bottom: 0.5rem;
+}

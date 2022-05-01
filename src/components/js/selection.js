@@ -3,14 +3,11 @@ import Header from "./Header";
 import SelectionCard from "./SelectionCard";
 import "../css/selection.css";
 import SelectCourse from "./Selectcourse";
+import Footer from "./Footer";
+import { Outlet } from "react-router";
 
 export default class Selection extends Component {
   render() {
-    // const course =[
-    //     {
-    //       select: "Select Course"
-    //     }
-    // ];
     const selection = [
       {
         header: "Email Marketing",
@@ -60,15 +57,9 @@ export default class Selection extends Component {
         </div>
         <div className="selectionBody">
           <div className="selectCourse">
-            {/* {course.map((courseItem) => {
-              return (
-                <SelectCourse 
-                
-                />
-              );
-            } */}
-            <SelectCourse />
-            {/* )} */}
+            <SelectCourse 
+            bgcolor= "#c1d4d6"
+            />
           </div>
 
           <div className="forcastCard">
@@ -82,7 +73,11 @@ export default class Selection extends Component {
               );
             })}
           </div>
+          <div className="footerCard">
+            <Footer color="#FFA246" />
+          </div>
         </div>
+        <Outlet />
       </div>
     );
   }

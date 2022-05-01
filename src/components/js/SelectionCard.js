@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const SelectionCard = (props) => {
   return (
@@ -16,8 +17,8 @@ const SelectionCard = (props) => {
         })}
       </ul>
       <div className="selectionButton">
-        <button>Learn More</button>
-        <img src={`../icons/arrowright.svg`} alt="arror right" />
+      <button>Learn More</button> 
+       <Link to="payment"> <img src={`../icons/arrowright.svg`} alt="arror right" /></Link>
       </div>
     </div>
   );
