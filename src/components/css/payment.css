@@ -1,4 +1,73 @@
 .paymentbody {
-    background-color: #F1F8F9;
-    padding:  2rem 2rem 3rem 2rem;
+  background-color: #f1f8f9;
+  padding: 2rem 2rem 3rem 2rem;
+}
+
+.paymentSection {
+  display: flex;
+}
+
+.changeSelection {
+  background-color: #ffffff;
+  border-radius: 2rem;
+  margin-right: 0.5rem;
+  width: 20rem;
+  padding: 2rem;
+}
+
+.openAccount {
+  background-color: #ffffff;
+  border-radius: 2rem;
+  padding: 2rem;
+  /* width: 20rem; */
+}
+
+.selectChange {
+  color: #02464b;
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 20rem;
+}
+.selectChange h1 {
+    padding-bottom: 0.5rem;
+}
+.selectChange ul {
+  padding: 0;
+  margin-top: 1.5rem;
+  font-weight: 400;
+  list-style: none;
+}
+.selectChange li {
+  padding-bottom: 1rem;
+}
+.paymentButton button {
+  background-color: #c1d4d6;
+  border: 4px solid #f1f8f9;
+  font-size: 14px;
+  font-weight: 600;
+  color: #02383c;
+  box-sizing: border-box;
+  border-radius: 10px;
+  align-items: center;
+  width: 20rem;
+  height: 2.8rem;
+  margin-top: 1rem;
+}
+.mailForm {
+    display: flex;
+}
+.paymentForm input[type=email], input[type=password] {
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #02464B;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+}
+.paymentForm input::placeholder {
+    color: #02474C;
+}
+.formMail {
+    margin-top: 1.3rem;
 }
